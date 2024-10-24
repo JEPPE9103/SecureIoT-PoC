@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-SecureIoT PoC (Proof of Concept) demonstrates a secure and robust IoT solution. The project simulates an IoT environment where a sensor device sends data to a backend system using Docker containers. This setup is designed to be easily deployable, secure, and compliant with key aspects of the Cyber Resilience Act (CRA).
+**SecureIoT PoC (Proof of Concept)** demonstrates a secure and robust IoT solution. The project simulates an IoT environment where a sensor device sends data to a backend system using Docker containers. This setup is designed to be easily deployable, secure, and compliant with key aspects of the Cyber Resilience Act (CRA).
 
 ### Components:
 - **Sensor Device (Docker Container)**: Simulates a device that generates and sends sensor data.
@@ -32,14 +32,14 @@ Refer to the [System Specification PDF](Secure_IoT_Solution_Specification.pdf) f
 - **Docker** and **Docker Compose** installed on your system.
 - Clone the repository:
   ```bash
-  git clone https://github.com/yourusername/SecureIoT-PoC.git
+  git clone https://github.com/JEPPER9103/SecureIoT-PoC.git
   cd SecureIoT-PoC
 Setup & Installation
 Clone the Repository:
 
 bash
 Kopiera kod
-git clone https://github.com/yourusername/SecureIoT-PoC.git
+git clone https://github.com/JEPPER9103/SecureIoT-PoC.git
 cd SecureIoT-PoC
 Run Docker Compose:
 
