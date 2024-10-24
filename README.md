@@ -1,33 +1,39 @@
-SecureIoT PoC
-Project Overview
+# SecureIoT PoC
+
+## Project Overview
+
 SecureIoT PoC (Proof of Concept) demonstrates a secure and robust IoT solution. The project simulates an IoT environment where a sensor device sends data to a backend system using Docker containers. This setup is designed to be easily deployable, secure, and compliant with key aspects of the Cyber Resilience Act (CRA).
 
-Components:
-Sensor Device (Docker Container): Simulates a device that generates and sends sensor data.
-InfluxDB (Database): Stores the sensor data received from the sensor device.
-Grafana (Visualization): Visualizes the data from InfluxDB in real-time dashboards.
-Docker Compose (Infrastructure): Manages the setup and connections between all components.
-Features
-Data Generation & Storage: Simulates sensor data and stores it in a time-series database.
-Real-time Visualization: Displays data in a user-friendly Grafana dashboard.
-Security: Incorporates Docker containerization and enables secure communication.
-System Architecture
+### Components:
+- **Sensor Device (Docker Container)**: Simulates a device that generates and sends sensor data.
+- **InfluxDB (Database)**: Stores the sensor data received from the sensor device.
+- **Grafana (Visualization)**: Visualizes the data from InfluxDB in real-time dashboards.
+- **Docker Compose (Infrastructure)**: Manages the setup and connections between all components.
+
+## Features
+
+- **Data Generation & Storage**: Simulates sensor data and stores it in a time-series database.
+- **Real-time Visualization**: Displays data in a user-friendly Grafana dashboard.
+- **Security**: Incorporates Docker containerization and enables secure communication.
+
+## System Architecture
+
 The system architecture comprises four main components:
+1. **Sensor Device (Python Script)**: Generates and sends temperature data to InfluxDB via HTTP POST requests.
+2. **InfluxDB**: A time-series database to store the incoming sensor data.
+3. **Grafana**: Retrieves data from InfluxDB and presents it visually in real-time dashboards.
+4. **Docker Compose**: Simplifies deployment by orchestrating all components to run together seamlessly.
 
-Sensor Device (Python Script): Generates and sends temperature data to InfluxDB via HTTP POST requests.
-InfluxDB: A time-series database to store the incoming sensor data.
-Grafana: Retrieves data from InfluxDB and presents it visually in real-time dashboards.
-Docker Compose: Simplifies deployment by orchestrating all components to run together seamlessly.
-Refer to the System Specification PDF for more details.
+Refer to the [System Specification PDF](Secure_IoT_Solution_Specification.pdf) for more details.
 
-Getting Started
-Prerequisites
-Docker and Docker Compose installed on your system.
-Clone the repository:
-bash
-Kopiera kod
-git clone https://github.com/yourusername/SecureIoT-PoC.git
-cd SecureIoT-PoC
+## Getting Started
+
+### Prerequisites
+- **Docker** and **Docker Compose** installed on your system.
+- Clone the repository:
+  ```bash
+  git clone https://github.com/yourusername/SecureIoT-PoC.git
+  cd SecureIoT-PoC
 Setup & Installation
 Clone the Repository:
 
