@@ -74,4 +74,4 @@ Author
 Developed by Jesper Persson.
 
 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License
